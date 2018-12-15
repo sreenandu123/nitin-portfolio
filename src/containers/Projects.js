@@ -33,7 +33,7 @@ class Projects extends React.Component {
           <h3 className="pr-head text-center">My favourite projects</h3>
           <h6 className="text-center m-l">Made with </h6>
           <div className="rw-center pr-nav">
-            <button>All projects</button>
+            <button className='selected'>All projects</button>
             <button>Web</button>
             <button>Mobile</button>
             <button>Others</button>
