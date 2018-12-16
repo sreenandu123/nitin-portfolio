@@ -355,6 +355,103 @@ const data = [
         }
     },
     {
+        name:"sportskeeda",
+        shortImg:null,
+        title:"Sportskeeda",
+        id:"sportskeeda",
+        durRuleTeam: {
+            duration: '-',
+        role: 'UX, Visual design',
+        // team: 'Netesh Chandra',
+        },   
+        challenge : {
+            header: 'The challenge ⚽️',
+            html: `<div><div>
+            At my short stint in Sportskeeda (one of the largest sports news websites in the world 
+                which gets more than <b>160 million</b> page views/month, reaching out to <b>45 million</b> unique 
+                users every month) I was fortunate enough to re-design their user management 
+                <b>dashboard</b>, create a medium like <b>editor</b> (sportkseeda has about <b>5000 writers</b> on its 
+                platform) and create a <b>concept</b> for their main website.</div>
+                <br />
+                <div>This is a collection of all my major work done in Sportskeeda.</div></div>`,
+                imageUrls: ["Sportskeeda/Image 1.png"],
+            },
+        designEditor: {
+            header:'Designing an editor for writers',
+            html: `<div><div>Sportskeeda had always used a simple CK editor but it had its own limitations and there
+            was a common feeling among writers at Sportskeeda that they don’t feel they work for 
+            a ‘premium’ sports news company when they pen their thoughts on CK editor. Hence,
+            there was a need for a fresh, modern looking, almost Medium-esque editor.</div>
+            <br />
+            <div>The editor has 2 modules: one for the writers who write and send the articles to the 
+            main editors (or moderators) who check the article for errors and mistakes and then
+            publish it on the site. This is where the challenge lied, to simultaneously design a 
+            dashboard for the editors to keep track of articles sent to them.</div></div>`
+        },
+        designProcess: {
+            header: 'Design Process 🖥',
+            html: `<div>This was a quick 2 week design excercise where my design process included making
+            paper wireframes for an approval of the flow from the in-house editors and other
+            stakeholders and diving into detailed visual design. Knowing our user base and 
+            specially since all the top editors worked from our Bangalore office, it was easy for me
+            to get constant feedback on all iterations that I did.</div>`,
+        },
+        paperProto: {
+            header: 'PAPER PROTOTYPES 📝',
+            html: `<div>Detailed, well laid out paper prototypes gave me a quick way to understand the
+            flow.  </div>`,
+            index: '01',
+            imageUrls: ["Sportskeeda/Image 2.png"],
+        },
+        visualDesign: {
+            header: 'VISUAL DESIGN 🎨',
+            html: `<div>Detailed, well laid out paper prototypes gave me a quick way to understand the
+            flow.</div>`,
+            imageUrls: ["Sportskeeda/Image 3.png"],
+            index: '02'
+        },
+        impact: {
+            header: 'IMPACT 🏆',
+            html: `<div>The editor, the dashboard and the management system was <b>well recieved</b> by all the
+            writers and editors at Sportskeeda. Most senior editors appreciated how the new 
+            editor <b>helped them manage</b> their articles and <b>saved time</b> reviewing a lot of articles in 
+            a day.</div>`,
+            index: '03'
+        },
+        innerImpactSection: [{
+            header: 'Redesigning the Sportskeeda website',
+            html: `<div>Although this may look like a visual re-design of the site, this is where I learnt how to
+            <b>use data to design.</b> Major decisions like exposing the sports tab on top, introducing
+            videos as a part of the newsfeed, giving more visibility to scores, etc. were all 
+            dependent on what Google Analytics told us about their usage. And most of the 
+            design decisions were data driven.</div>`,
+        },{
+            header: 'Design Process 🖥',
+        html: `<div>After collecting all the required information from the data gathered, the team and I
+        made a few whiteboard wireframes to decide what elements come where.</div>`,
+        },{
+            header: 'VISUAL DESIGN 🎨',
+            html: `<div><div>Since sportskeeda never had a dedicated in-house designer before I joined them, I
+            was responsible to set a design language which involved deciding to use a new font.</div>
+            <br />
+            <div>Proxima Nova, was the font we decided to go ahead with and the major reason was it
+            supported regional languages too where sportskeeda gets a lot of users from.</div></div>`,
+            imageUrls: ["Sportskeeda/Image 4.png"],
+            index:'01'
+        },{
+            header: 'IMPACT 🏆',
+            html: `<div>
+            <div>I had to unfortunately quit sportskeeda before the project was taken up for development.
+But a version of this is developed and is live.</div><br />
+
+<div>Link: www.sportskeeda.com/creator,
+      www.sportskeeda.com</div>
+            </div>`,
+            index:'02'
+        }],
+
+    },
+    {
         name:"Maketag",
         shortImg:null,
         title:"A wholesale shopping app for fashion apparel",
