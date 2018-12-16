@@ -7,16 +7,26 @@ import postImg from "../static/images/flat.jpg";
 var images = require.context("../static/images", true);
 const imagePath = (name) => images(name, true);
 
-import ProjectSection from "./ProjectSection"
+import ProjectSection from "./ProjectSection";
 
-export default withRouteData(({ post }) => {
 
+
+export default withRouteData(({ post, props }) => {
+
+  console.log("this.props",props  )
   let redesignSection = () => {
    return post.innerImpactSection.map((section, key) => {return <ProjectSection postSection={section} imagePath={imagePath} key={key}/> })
   }
+
+  // let scrollToTop = () => {
+  //   console.log("adsbcnrekksdjml", ReactDOM.findDOMNode(this))
+  //   scrollTo(0, 0);
+  // }
+
   return (
   <div className="project_post">
     {/* <Link to="/projects/" className={'back-btn'}>{'<'} Back</Link> */}
+    {/* {scrollToTop()} */}
     <div className="post_title">{post.title}</div>
     {post.durRuleTeam && 
       <table width='100%' className="table-align">

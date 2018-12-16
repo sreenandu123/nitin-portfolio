@@ -17,7 +17,8 @@ class Projects extends React.Component {
   }
   render() {
     const listOfElements = [];
-    this.props.posts.map(post =>(
+    this.props.posts.map(post =>{
+      return (
       listOfElements.push(<li className="grid-item js-item" key={post.id}>
         <Link to={`/projects/post/${post.id}`}>
         <div className="img-container">
@@ -26,7 +27,7 @@ class Projects extends React.Component {
         <h3>{post.title}</h3>
         </Link>
       </li>)
-    ))
+    )})
      return (
         <div className="content">
         <div>

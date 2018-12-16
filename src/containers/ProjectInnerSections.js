@@ -2,7 +2,6 @@ import React from 'react'
 import { withRouteData, Link } from 'react-static'
 
 export default withRouteData(({ innerSection, imagePath }) => {
-    console.log("innerPSefdcre", innerSection)
     let image = () => {
         return innerSection.imageUrls.map((item, key) => {
             return <img src={imagePath(`./${item}`)} width="100%" key={`${key}a`}/> 
